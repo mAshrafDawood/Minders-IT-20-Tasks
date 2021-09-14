@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 4vh;
+    color: #ddd;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.my-calculator{
+    width: 30em;
+    height: 80%;
+    margin: 0 auto;
+    background: rgba( 129, 114, 209, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#answer{
+    height: fit-content;
+    margin: 5% 2%;
+    padding: 2% 5%;
+    text-align: right;
+    background:rgba( 0, 0, 0, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.calc-button{
+    background: rgba( 0, 0, 0, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17.0px );
+    -webkit-backdrop-filter: blur( 17.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2%;
+    width: 20%;
+    height: 100%;
+}
+
+.calc-button:focus{
+    text-shadow:
+      0 0 7px rgb(0, 102, 255),
+      0 0 10px rgb(0, 102, 255),
+      0 0 21px rgb(0, 102, 255),
+      0 0 42px rgb(0, 102, 255),
+      0 0 82px rgb(0, 102, 255),
+      0 0 92px rgb(0, 102, 255),
+      0 0 102px rgb(0, 102, 255),
+      0 0 151px rgb(0, 102, 255);
+}
+
+.row{
+    display:flex;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+
+#calc-frame{
+    margin: 2%;
+}
